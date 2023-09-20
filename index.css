@@ -1,0 +1,35 @@
+
+span{
+    color: blueviolet;
+}
+
+div p:nth-of-type(3n-1){
+    background-color: cadetblue;
+}
+
+div p:only-of-type{
+    background-color: gold;
+
+}
+
+div p:only-child{
+    background-color: aquamarine;
+}
+input:read-write{
+    background-color: chartreuse;
+}
+input:required{
+    background-color: brown;
+
+}
+input:read-only{
+    background-color: blue;
+}
+.main div{
+    display: none;
+}
+.main div:target{
+    display: black;
+    background-color: blue;
+    color: white;
+}
